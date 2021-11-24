@@ -1,0 +1,47 @@
+html {
+    font-family: Roboto, Arial, Helvetica, sans-serif
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.top-content2 {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+}
+
+.bigtext {
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+}
+
+.topbutton {
+    border-radius: 0.5rem;
+    background: rebeccapurple;
+    border: none;
+}
+
+
