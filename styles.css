@@ -39,9 +39,9 @@ a {
 }
 
 .topbutton {
-    border-radius: 0.5rem;
     background: rebeccapurple;
     border: none;
+    border-radius: 0.5rem;
 }
 
 .subtop3 {
@@ -103,6 +103,44 @@ a {
     font-size: 1rem;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.footer {
+    margin: 3rem 10rem;
+    padding: 2.5rem;
+    max-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #3882F6;
+    border-radius: 0.5rem
+}
+
+.subfooter1 {
+    padding: 5rem;
+    margin: 0;
+}
+
+.subfooter2 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.subfooter3 {
+    color: white;
+    font-size: 1rem;
+
+}
+
+.footerbutton {
+    background: #3882F6;
+    border-radius: 0.5rem;
+    border-color: white;
+    border-width: 0.13rem;
+    align-self: center;
+    color: white;
+    font-size: 1rem;
 }
 
 
