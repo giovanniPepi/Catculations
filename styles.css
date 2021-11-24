@@ -28,7 +28,7 @@ a {
 
 .topimage {
     border-radius: 2rem;
-    max-height: 20rem;
+    max-height: 18em;
 }
 
 
@@ -54,7 +54,7 @@ a {
     font-size: 48px;
     font-weight: bolder;
     display: flex;
-    margin-bottom: 0.5rem;    
+    margin-bottom: 1rem;    
 }
 
 .smalltext {
@@ -77,16 +77,18 @@ a {
     display: flex;    
     justify-content: center;
     padding: 0.5rem;   
+    margin-bottom: 2rem;
 }
 
 .top-content3 {
     background: white;
+    font-style: italic;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    height: 10rem;
-    gap: 4rem;
+    flex-shrink: 0;
+    padding: 3rem;
+    height: 15rem;
+    gap: 3rem;
     
 }
 
@@ -96,24 +98,25 @@ a {
     align-items: center;   
 }
 
-.subtop3-card {
-    padding: 1rem;
-}
-
-.magicblue {
+.sucess {
+    max-width: 10rem;
+    max-height: 10rem;
     border-radius: 0.7rem;
-    border-color: #3882F6;
+    border: 1rem solid #3882F6;
     border-width: 0.25rem;
-    width: auto;
+    margin: 0;
+    padding: 0;
     background: white;
-    padding: 2rem;
+    background-repeat:no-repeat;
 }
 
 .bottom-content-1 {
     background: #E5E7EB;
     display: flex;
     flex-direction: column;
+    align-content: center;
     padding: 8rem;  
+   
 }
 
 .subbottom1 {
@@ -123,6 +126,7 @@ a {
     color:  #1f293794;
     margin: 0;
     padding: 0;
+    margin-bottom: 2rem;
 }
 
 .subbottom2 {
@@ -133,17 +137,18 @@ a {
 
 .footer {
     margin: 3rem 10rem;
-    padding: 2.5rem;
+    padding: 4rem;
     max-height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background: #3882F6;
-    border-radius: 0.5rem
+    border-radius: 0.5rem;
+  
 }
 
 .subfooter1 {
-    padding: 5rem;
+    padding: 3rem;
     margin: 0;
 }
 
@@ -156,17 +161,16 @@ a {
 .subfooter3 {
     color: white;
     font-size: 1rem;
-
 }
 
 .footerbutton {
     background: #3882F6;
-    border-radius: 0.5rem;
     border-color: white;
-    border-width: 0.13rem;
-    align-self: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    min-width: 7rem;
     color: white;
-    font-size: 1rem;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
 .bigfoot {
