@@ -31,6 +31,7 @@ a {
     max-height: 20rem;
 }
 
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -43,21 +44,30 @@ a {
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 4rem;
+    gap: 2rem;
 }
 
 .bigtext {
     font-size: 48px;
     font-weight: bolder;
     display: flex;
+    margin-bottom: 0.5rem;    
+}
+
+.smalltext {
+    margin-bottom: 1rem;
 }
 
 .topbutton {
-    background: rebeccapurple;
+    background: #3882F6;
     border: none;
     border-radius: 0.5rem;
+    padding: 0.5rem;
+    min-width: 7rem;
+    color: white;
 }
 
 .subtop3 {
