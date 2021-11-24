@@ -84,8 +84,25 @@ a {
 }
 
 .bottom-content-1 {
-    background: grey;
+    background: #E5E7EB;
     display: flex;
-    
+    flex-direction: column;
+    padding: 8rem;  
 }
+
+.subbottom1 {
+    font-size: 2.2rem;
+    font-weight:100;
+    font-style: italic;
+    color:  #1f293794;
+    margin: 0;
+    padding: 0;
+}
+
+.subbottom2 {
+    font-size: 1rem;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
 
