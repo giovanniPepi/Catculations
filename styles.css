@@ -20,11 +20,23 @@ a {
     font-size: 1rem;
 }
 
+.profile {
+    border-radius: 2rem;
+    max-width: 4rem;
+    height: 100%;
+}
+
+.topimage {
+    border-radius: 2rem;
+    max-height: 20rem;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
-    padding: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
 }
 
 .top-content2 {
